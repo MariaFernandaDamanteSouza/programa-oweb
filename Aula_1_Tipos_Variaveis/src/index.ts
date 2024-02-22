@@ -1,5 +1,5 @@
 // Tipo number para números
-let idade: number = 25;
+let idade: number = 30;
 let altura: number = 1.75;
 
 // Tipo string para texto
@@ -23,7 +23,7 @@ valorQualquer = "abc";
 valorQualquer = true;
 
 // Tipo object para valores não primitivos
-let pessoaObjeto: object = { nome: "João", idade: 25 };
+let pessoaObjeto: object = { nome: "João", idade: 27 };
 
 // Tipo union para aceitar múltiplos tipos
 let nota: number | string = 10;
