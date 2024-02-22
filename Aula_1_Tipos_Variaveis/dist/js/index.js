@@ -1,6 +1,6 @@
 "use strict";
 // Tipo number para números
-let idade = 25;
+let idade = 30;
 let altura = 1.75;
 // Tipo string para texto
 let nome = "João";
@@ -18,7 +18,7 @@ let valorQualquer = 10;
 valorQualquer = "abc";
 valorQualquer = true;
 // Tipo object para valores não primitivos
-let pessoaObjeto = { nome: "João", idade: 25 };
+let pessoaObjeto = { nome: "João", idade: 27 };
 // Tipo union para aceitar múltiplos tipos
 let nota = 10;
 nota = "A";
