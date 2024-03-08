@@ -1,2 +1,2 @@
-"use strict";
-console.log("Ola");
+
+console.log("Ola Mundo");
