@@ -82,31 +82,33 @@
 // console.log (calculadora.subtrair())
 // console.log (calculadora.somar ())
 // console.log (calculadora.CalcularPorcentagem())
-// //3) 
-class Produto {
-    constructor(nome, preco, quantidadeEmEstoque) {
-        this.nome = nome;
-        this.preco = preco;
-        this.quantidadeEmEstoque = quantidadeEmEstoque;
-    }
-    calcularValorTotalEmEstoque() {
-        return this.preco * this.quantidadeEmEstoque;
-    }
-    reporEstoque(quantidade) {
-        this.quantidadeEmEstoque = this.quantidadeEmEstoque + quantidade;
-    }
-    vender(quantidade) {
-        if (quantidade > this.quantidadeEmEstoque) {
-            throw new Error("não há estoque suficiente");
-        }
-        else {
-            this.quantidadeEmEstoque = this.quantidadeEmEstoque - quantidade;
-        }
-    }
-}
-const p1 = new Produto("Blusa", 100, 30);
-console.log(p1.calcularValorTotalEmEstoque());
-p1.reporEstoque(40);
-console.log(p1.calcularValorTotalEmEstoque());
-p1.vender(60);
-console.log(p1.calcularValorTotalEmEstoque());
+// // //3) 
+// class Produto {
+//     private nome: string;
+//     private preco: number;
+//     private quantidadeEmEstoque: number;
+//     constructor(nome: string, preco: number, quantidadeEmEstoque: number) {
+//       this.nome = nome;
+//       this.preco = preco;
+//       this.quantidadeEmEstoque = quantidadeEmEstoque;
+//     }
+//     calcularValorTotalEmEstoque (): number {
+//        return this.preco*this.quantidadeEmEstoque
+//     }
+//     reporEstoque (quantidade: number): void {
+//         this.quantidadeEmEstoque=this.quantidadeEmEstoque+quantidade
+//     }
+//     vender(quantidade:number): void{
+//         if (quantidade > this.quantidadeEmEstoque){
+//             throw new Error("não há estoque suficiente");
+//         }else {
+//             this.quantidadeEmEstoque=this.quantidadeEmEstoque-quantidade
+//         }
+//     }
+// }
+// const p1: Produto = new Produto("Blusa", 100, 30)
+// console.log (p1.calcularValorTotalEmEstoque())
+// p1.reporEstoque (40)
+// console.log (p1.calcularValorTotalEmEstoque())
+// p1.vender (60)
+// console.log (p1.calcularValorTotalEmEstoque())
